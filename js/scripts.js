@@ -10,5 +10,14 @@ $(document).ready(function(){
     $("p#output").text(array);
 
 
+
+    var secondArray = array.reverse();
+    $("p#secondOutput").text(secondArray);
+    var thirdArray = [];
+    thirdArray.push(array[1]);
+    thirdArray.push(array[0]);
+    thirdArray.push(array[2]);
+    $("p#thirdOutput").text(thirdArray);
+
   });
 });
